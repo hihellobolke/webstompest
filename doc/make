@@ -1,0 +1,4 @@
+#!/bin/bash
+source ~/.profile
+source ${WORKON_HOME}/${STOMPEST_DEV_ENV}/bin/activate
+make html
